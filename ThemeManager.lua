@@ -6,7 +6,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Yumi']           	= { 1, HttpService:JSONDecode('{"FontColor":"fff5fc","MainColor":"242330","AccentColor":"ffcff0","BackgroundColor":"1d1b26","OutlineColor":"2f232e"}') },
+		['Yumi']           	= { 1, HttpService:JSONDecode('{"FontColor":"ffe9f8","MainColor":"242330","AccentColor":"ffcaee","BackgroundColor":"1d1b26","OutlineColor":"2f232e"}') },
     		['Quartyz']         	= { 2, HttpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242330","AccentColor":"ffffff","BackgroundColor":"1d1b26","OutlineColor":"27232f"}') },
 		['Linoria'] 		= { 3, HttpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"0055ff","BackgroundColor":"141414","OutlineColor":"323232"}') },
 		['BBot'] 		= { 4, HttpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
