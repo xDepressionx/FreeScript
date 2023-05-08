@@ -1,10 +1,12 @@
+local HttpService = game:GetService("HttpService")
+
 local ThemeManager = {} do
 	ThemeManager.Folder = 'Mukuro'
 	-- if not isfolder(ThemeManager.Folder) then makefolder(ThemeManager.Folder) end
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Yumi']           	= { 1, HttpService:JSONDecode('{"FontColor":"ffecf9","MainColor":"242330","AccentColor":"d098c0","BackgroundColor":"1d1b26","OutlineColor":"2f232e"}') },
+		['Yumi']           	= { 1, HttpService:JSONDecode('{"FontColor":"fff4fc","MainColor":"242330","AccentColor":"d098c0","BackgroundColor":"1d1b26","OutlineColor":"2f232e"}') },
     		['Quartyz']         	= { 2, HttpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242330","AccentColor":"ffffff","BackgroundColor":"1d1b26","OutlineColor":"27232f"}') },
 		['Linoria'] 		= { 3, HttpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"0055ff","BackgroundColor":"141414","OutlineColor":"323232"}') },
 		['BBot'] 		= { 4, HttpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
