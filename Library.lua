@@ -46,6 +46,7 @@ local Library = {
 
     Signals = {};
     ScreenGui = ScreenGui;
+    ToggleKeybind = Enum.KeyCode.RightControl;
 };
 
 local RainbowStep = 0
